@@ -6,9 +6,10 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 export const Hero = () => {
   return (
     <div className='w-full h-screen text-center'>
-      <div className='mw-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='pt-[8rem] md:pt-[5rem] max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+
         <div>
-          <p className='uppercase tracking-wide text-gray-700'>
+          <p className='pt-10 uppercase tracking-wide text-gray-700'>
             Thanks for joining me
           </p>
           <h1 className='py-4 text-gray-700'>Hey, I'm <span className='text-[#FF5733]'>Vanessa</span></h1>
