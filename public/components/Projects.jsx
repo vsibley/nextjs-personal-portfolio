@@ -18,19 +18,18 @@ const Projects = () => {
                             <Image className='rounded-xl' src={techblog} alt='' />
                             <div className='p-3'>
                                 <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Next.js, Tailwind CSS, GraphQL.</span></p>
-                                <p>In building this web-based application, I
-                                    displayed a working knowledge of ReactJS, NextJS. utilized GraphQL to retrieve post data by configuring
+                                <p>I Utilizing GraphQL to retrieve post data by configuring
                                     React Components to make GROQ Query API calls based
                                     on user interaction.</p>
                                 <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
                                     
                                         <Link href='https://www.tech-ness.com/'>
-                                        <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300' > 
+                                        <button className='py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300' > 
                                         Demo
                                         </button>
                                         </Link>
                                         
-                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>
+                                    <button className='py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>
                                         <Link href='https://github.com/vsibley/personal-blog-techness'>
                                         Code</Link> 
                                         </button>
@@ -46,14 +45,14 @@ const Projects = () => {
                             <Image className='rounded-xl' src={portfolio} alt='' />
                             <div className='p-3'>
                                 <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Next.js, Tailwind CSS. </span></p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
+                                <p>This is the first portfolio I built with React to showcase the skills I learned and projects I've completed.</p>
                                 <div className='flex flex-cols-2 pt-6 items-center justify-center gap-10 p-3'>
-                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>
+                                    <button className='py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>
                                         <a href="https:/vanessasibley-reactportfolio.netlify.app/">
                                             Demo
                                         </a>
                                     </button>
-                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
+                                    <button className='py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
                                 </div>
                             </div>
                         </div>
