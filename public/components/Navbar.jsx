@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutline, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -8,16 +8,16 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
     useEffect(() => {
-      const scrollShadow = () => {
-        if(window.scrollY >= 90) {
-            setShadow(true)
-        } else {
-            setShadow(false);
-        }
-    };
+        const scrollShadow = () => {
+            if (window.scrollY >= 90) {
+                setShadow(true)
+            } else {
+                setShadow(false);
+            }
+        };
         window.addEventListener('scroll', scrollShadow);
-      },[]);
-    
+    }, []);
+
 
     const changeNav = () => {
         setNav(!nav)
@@ -27,34 +27,34 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-2xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
+                    <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
                 </Link>
                 <div>
-            <ul className='hidden md:flex'>
-                <Link href='/'>
-                    <li className='ml-10 text-sm hover:border-b border-gray-700'>Home</li>
-                </Link>
-                <Link href='/#about'>
-                    <li className='ml-10 text-sm hover:border-b border-gray-700'>About</li>
-                </Link>
-                <Link href='/#skills'>
-                    <li className='ml-10 text-sm hover:border-b border-gray-700'>Skills</li>
-                </Link>
-                <Link href='/#projects'>
-                    <li className='ml-10 text-sm hover:border-b border-gray-700'>Projects</li>
-                </Link>
-                <Link href='/#contact'>
-                    <li className='ml-10 text-sm hover:border-b border-gray-700'>Contact</li>
-                </Link>
-            </ul>
+                    <ul className='hidden md:flex'>
+                        <Link href='/'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Home</li>
+                        </Link>
+                        <Link href='/#about'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>About</li>
+                        </Link>
+                        <Link href='/#skills'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Skills</li>
+                        </Link>
+                        <Link href='/#projects'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Projects</li>
+                        </Link>
+                        <Link href='/#contact'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Contact</li>
+                        </Link>
+                    </ul>
                     <div className='md:hidden' onClick={changeNav}>
-                <AiOutlineMenu size={25}/>
-            </div>
+                        <AiOutlineMenu size={25} />
+                    </div>
                 </div>
             </div>
 
             {/* Side-Mobile Menu  */}
-            
+
             <div className={nav ? 'md:hidden fixed left-0 top-0 right-0 w-full h-screen bg-black/70' : ''}>
                 <div
                     className={
@@ -64,31 +64,31 @@ const Navbar = () => {
                     }
                 >
                     <div>
-                        <div className='flex w-full justify-end pb-2'> 
+                        <div className='flex w-full justify-end pb-2'>
                             <div className='rounded-full shadow-lg p-3 shadow-gray-500 cursor-pointer' onClick={changeNav}>
-                                <AiOutlineClose size={25}/>
+                                <AiOutlineClose size={25} />
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-3'>
-                            
+
                         </div>
                     </div>
                     <div className='py-2 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
-                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Home</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
                             </Link>
                             <Link href='/#about'>
-                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>About</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>About</li>
                             </Link>
                             <Link href='/#skills'>
-                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Skills</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li>
                             </Link>
                             <Link href='/#projects'>
-                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Projects</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Projects</li>
                             </Link>
                             <Link href='/#contact'>
-                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Contact</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
                         {/* Social Media Connect */}
@@ -96,13 +96,21 @@ const Navbar = () => {
                             <p className='uppercase tracking-widest'>Let's connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <FaLinkedin />
+                                    <a href="https://www.linkedin.com/in/vanessa-sibley/"><FaLinkedin /></a>
+
                                 </div>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <FaGithub />
+                                    <a href="https://github.com/vsibley">
+                                        <FaGithub />
+                                    </a>
+
                                 </div>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <FaInstagram />
+                                    <a href="https://www.instagram.com/gitinit.ness/?igshid=YmMyMTA2M2Y%3D">
+                                        <FaInstagram />
+                                        
+                                    </a>
+                                    
                                 </div>
                             </div>
                         </div>

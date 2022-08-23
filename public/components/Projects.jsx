@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div id='projects' className='w-full h-full'>
             <div className='max-w-[1240px] mx-auto px-2 w-full max-h-full py-16'>
-                
+
                 <p className='text-xl tracking-wider uppercase text-[#FF5733] py-4'>Projects</p>
                 <h2 className=' pb-6'>My most recent work</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
@@ -19,8 +19,18 @@ const Projects = () => {
                             <div className='p-3'>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
                                 <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
-                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Demo</button>
-                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
+                                    
+                                        <Link href='https://www.tech-ness.com/'>
+                                        <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300' > 
+                                        Demo
+                                        </button>
+                                        </Link>
+                                        
+                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>
+                                        <Link href='https://github.com/vsibley/personal-blog-techness'>
+                                        Code</Link> 
+                                        </button>
+                                            
                                 </div>
                             </div>
                         </div>
@@ -33,7 +43,11 @@ const Projects = () => {
                             <div className='p-3'>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
                                 <div className='flex flex-cols-2 pt-6 items-center justify-center gap-10 p-3'>
-                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Demo</button>
+                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>
+                                        <a href="https:/vanessasibley-reactportfolio.netlify.app/">
+                                            Demo
+                                        </a>
+                                    </button>
                                     <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
                                 </div>
                             </div>

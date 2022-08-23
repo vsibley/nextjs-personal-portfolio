@@ -43,16 +43,19 @@ const Contact = () => {
                                 <p className='pt-8'>Let's connect</p>
                                 <div className='flex items-center justify-between py-4'>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
-                                        <FaLinkedin />
+                                        <a href="https://www.linkedin.com/in/vanessa-sibley/">
+                                            <FaLinkedin />
+                                        </a>
                                     </div>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
-                                        <FaGithub />
+                                        <a href="https://github.com/vsibley"><FaGithub /></a>
+                                        
                                     </div>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
-                                        <FaInstagram />
-                                    </div>
-                                    <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
-                                        <AiOutlineMail />
+                                        <a href="mailto:sibley.vanessas@gmail.com">
+                                            <AiOutlineMail />
+                                        </a>
+                                        
                                     </div>
                                 </div>
                             </div>
