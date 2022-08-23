@@ -26,13 +26,13 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='w-full lg:h-screen '>
+        <div id='contact' className='w-full lg:h-screen px-4'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
                 <p className='text-xl tracking-wider uppercase text-[#FF5733] py-4'>Contact</p>
                 <h2 className='pb-4'>Let's chat</h2>
                 <div className='grid lg:grid-cols-5 gap-8'>
                     {/* LEFT SIDE */}
-                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4'>
+                    <div className='col-span-3 lg:col-span-2 align-middle w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4'>
                         <div className='lg:p-4 h-full'>
                             <div>
                                 <h2 className='py-2'>Vanessa Sibley</h2>
@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
 
                     {/* RIGHT SIDE */}
-                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 lg:p-4'>
+                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 lg:p-4 rounded-xl'>
                         <div className='p-4'>
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="grid gap-4 py-2 w-full">
