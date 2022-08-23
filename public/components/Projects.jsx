@@ -17,9 +17,9 @@ const Projects = () => {
                             <Image className='rounded-xl' src={techblog} alt='' />
                             <div className='p-3'>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
-                                <div className='flex flex-cols-2 items-center justify-center gap-10 p-3'>
-                                    <button className='p-4 font-bold hover:scale-110 ease-in duration-300'>Demo</button>
-                                    <button className='p-4 font-vold hover:scale-110 ease-in duration-300'>Code</button>
+                                <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
+                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Demo</button>
+                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
                                 </div>
                             </div>
                         </div>
@@ -31,9 +31,9 @@ const Projects = () => {
                             <Image className='rounded-xl' src={portfolio} alt='' />
                             <div className='p-3'>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
-                                <div className='flex flex-cols-2 items-center justify-center gap-10 p-3'>
-                                    <button className='p-4 font-bold hover:scale-110 ease-in duration-300'>Demo</button>
-                                    <button className='p-4 font-vold hover:scale-110 ease-in duration-300'>Code</button>
+                                <div className='flex flex-cols-2 pt-6 items-center justify-center gap-10 p-3'>
+                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Demo</button>
+                                    <button className='py-4 px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
                                 </div>
                             </div>
                         </div>
