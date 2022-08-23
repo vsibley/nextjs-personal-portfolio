@@ -57,11 +57,11 @@ const Navbar = () => {
                                 <AiOutlineClose size={25}/>
                             </div>
                         </div>
-                        <div className='border-b border-gray-300 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Hello, I'm glad you're here!</p>
+                        <div className='border-b border-gray-300 my-3'>
+                            
                         </div>
                     </div>
-                    <div className='py-4 flex flex-col'>
+                    <div className='py-2 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
                                 <li className='py-4 text-sm'>Home</li>
@@ -83,13 +83,13 @@ const Navbar = () => {
                         <div className='pt-40 '>
                             <p className='uppercase tracking-widest'>Let's connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                                <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                 <FaLinkedin />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                                <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                 <FaGithub />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                                <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                 <FaInstagram />
                                 </div>
                             </div>

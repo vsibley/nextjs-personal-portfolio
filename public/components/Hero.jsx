@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/faa';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+
 
 export const Hero = () => {
   return (
@@ -13,12 +15,25 @@ export const Hero = () => {
           <h2 className='py-2 text-gray-700'>A Front-End Web Dev</h2>
           <h2 className='py-2 text-gray-700'>Blockchain + Web3</h2>
           <p className='py-4 text-gray-500 max-w-[70%] m-auto'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ea quis facere recusandae reprehenderit itaque corporis nisi voluptas quaerat voluptate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptates aliquid non aut veniam deleniti quasi reiciendis eos et provident!</p>
-          <div className='flex max-w-[330px] items-center justify-between m-auto py-4'>
-            <div>
+          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+            <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
               <FaLinkedin />
             </div>
-
+            <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
+              <FaGithub />
+            </div>
+            <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
+              <FaInstagram />
+            </div>
+            <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 duration-500'>
+              <BsFillPersonLinesFill />
+            </div>
           </div>
+     
+
+
+
+
         </div>
       </div>
     </div>
