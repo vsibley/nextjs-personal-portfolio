@@ -6,7 +6,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div className='w-full lg:h-screen '>
+      <div id='contact' className='w-full lg:h-screen '>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
               <p className='text-xl tracking-wider uppercase text-[#FF5733] py-4'>Contact</p>
               <h2 className='pb-4'>Let's chat</h2>
@@ -45,7 +45,7 @@ const Contact = () => {
                         <form>
                             <div className="grid md:grid-cols-2 gap-4 py-2 w-full">
                                 <div className="flex flex-col">
-                                    <label className='uppercase text-sm py-2 uppercase'>Name</label>
+                                    <label className='text-sm py-2 uppercase'>Name</label>
                                     <input className='border-2 rounded-xl p-3 flex border-gray-500' type="text" name="" id="" placeholder='NAME' />
                                 </div>
                                 <div className="flex flex-col">

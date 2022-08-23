@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutline, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -6,30 +6,44 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
+    useEffect(() => {
+      const scrollShadow = () => {
+        if(window.scrollY >= 90) {
+            setShadow(true)
+        } else {
+            setShadow(false);
+        }
+    };
+        window.addEventListener('scroll', scrollShadow);
+      },[]);
+    
 
     const changeNav = () => {
         setNav(!nav)
     }
 
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
+        <div className={shadow ? 'fixed w-full h-20 shadow-2xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+                <Link href='/'>
                 <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
+                </Link>
                 <div>
             <ul className='hidden md:flex'>
                 <Link href='/'>
                     <li className='ml-10 text-sm hover:border-b border-gray-700'>Home</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#about'>
                     <li className='ml-10 text-sm hover:border-b border-gray-700'>About</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#skills'>
                     <li className='ml-10 text-sm hover:border-b border-gray-700'>Skills</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#projects'>
                     <li className='ml-10 text-sm hover:border-b border-gray-700'>Projects</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#contact'>
                     <li className='ml-10 text-sm hover:border-b border-gray-700'>Contact</li>
                 </Link>
             </ul>
@@ -64,19 +78,19 @@ const Navbar = () => {
                     <div className='py-2 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
-                                <li className='py-4 text-sm'>Home</li>
+                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Home</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>About</li>
+                            <Link href='/#about'>
+                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>About</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Skills</li>
+                            <Link href='/#skills'>
+                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Skills</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Projects</li>
+                            <Link href='/#projects'>
+                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Projects</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Contact</li>
+                            <Link href='/#contact'>
+                                <li onClick={() =>setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
                         {/* Social Media Connect */}

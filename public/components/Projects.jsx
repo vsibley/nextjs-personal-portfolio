@@ -6,8 +6,9 @@ import portfolio from '../assets/projects/portfolio.png';
 
 const Projects = () => {
     return (
-        <div className='w-full h-full'>
-            <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div id='projects' className='w-full h-full'>
+            <div className='max-w-[1240px] mx-auto px-2 w-full max-h-full py-16'>
+                
                 <p className='text-xl tracking-wider uppercase text-[#FF5733] py-4'>Projects</p>
                 <h2 className=' pb-6'>My most recent work</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
