@@ -12,14 +12,14 @@ const Skills = () => {
                 {/* Skills Cards */}
                 <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
                     <div className='grid grid-cols-1 gap-4 justify-center items-center text-center'>
-                              <p className='text-2xl font-bold tracking-wider py-4'>Web 2 Skills</p>
+              <p className='text-2xl font-bold tracking-wider py-4 uppercase'>Web 2 Skills 🌐 </p>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
                     </div>
                 </div>
 
                   <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
                       <div className='grid grid-cols-1 gap-4 justify-center items-center text-center'>
-                          <p className='text-2xl font-bold tracking-wider py-4'>Web 3 Skills</p>
+              <p className='text-2xl font-bold tracking-wider py-4 uppercase'>Web 3 Skills 🔗 </p>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores alias libero corrupti voluptates cum, recusandae eius, earum velit ullam eos rerum unde! Fugiat, architecto?</p>
                     </div>
 

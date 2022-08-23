@@ -7,9 +7,12 @@ const About = () => {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-wider text-[#FF5733]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
-                    <p className='py-2 text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sapiente repudiandae architecto.</p>
-                    <p className='py-2 text-gray-600'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at suscipit doloribus neque enim esse aliquam perferendis maxime maiores delectus obcaecati ut quas, minima recusandae incidunt sequi expedita nesciunt iste et. Ratione veritatis dolore, officia exercitationem quam aut possimus et!</p>
-                    <p className='py-2 text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia neque deserunt! Exercitationem repellat fugiat dolores sunt cum impedit eligendi!</p>
+                    <p className='py-2 text-gray-600'>I am a 29 year old, extroverted and overly caffinated Software Developer. I'm dedicated to being a force of positivity for those I interact with in my professional and personal life. </p>
+                    <p className='py-2 text-gray-600'>
+                         I am naturally curious and love to continue learning. I'm consistently evolving my skills and always looking to level up and learn new technologies. 
+                    </p>
+                    <p className='py-2 text-gray-600'>My journey started when I initially signed up for a coding Bootcamp to see if I had interest in CSS, HTML and JavaScript. Since then I have continued to teach myself skills such as React, Next.JS, Solidity, Hardhat and various other technologies. </p>
+                    <p className='py-2 text-gray-600'>I would love to connectand and chat more about my journey and other skills I've developed along the way.</p>
                 </div>
                 <div className='flex w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl justify-center items-center hover:scale-110 ease-in duration-200'>
                     <img className='rounded-xl' src="../assets/headshot.jpg" alt="" />
