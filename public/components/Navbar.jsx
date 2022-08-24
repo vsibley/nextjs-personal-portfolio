@@ -5,7 +5,7 @@ import { AiOutline, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { useTheme } from 'next-themes';
 import { MdOutlineDarkMode, MdBrightness2 } from 'react-icons/md';
-import { BsBrightnessHigh, BsBrightnessHighFill } from 'react-icons/bs';
+import { VscColorMode } from 'react-icons/vsc';
 
 
 
@@ -57,7 +57,7 @@ const Navbar = () => {
                         </Link>
                         <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>
                             <button className='bg-none' onClick={() => setTheme(theme === 'dark' ? 'light': 'dark')} >
-                            <MdOutlineDarkMode className='dark:text-white'/>
+                                <VscColorMode className='dark:text-white'/>
                             </button>
                         </li>
                     </ul>
@@ -106,7 +106,7 @@ const Navbar = () => {
                             </Link>
                             <li >
                                 <button className='bg-none' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
-                                <MdOutlineDarkMode className='dark:text-white'/>
+                                    <VscColorMode className='dark:text-white'/>
                                 </button>
                             </li>
                         </ul>
