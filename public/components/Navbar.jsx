@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-lg dark:shadow-gray-900 dark:bg-black dark:text-white z-[100]' : 'fixed w-full h-20 dark:bg-black dark:text-white z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <a href='/'>
-                    <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
+                    <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125'/>
                 </a>
                 <div>
                     <ul className='hidden md:flex'>
