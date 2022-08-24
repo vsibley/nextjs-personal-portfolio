@@ -52,7 +52,12 @@ const Projects = () => {
                                             Demo
                                         </a>
                                     </button>
-                                    <button className='py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>Code</button>
+                                    <button className='py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>
+                                        <a href="https://github.com/vsibley/first-react-portfolio">
+
+                                        Code
+                                        </a>
+                                        </button>
                                 </div>
                             </div>
                         </div>

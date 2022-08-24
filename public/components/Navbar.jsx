@@ -7,6 +7,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
+    
     useEffect(() => {
         const scrollShadow = () => {
             if (window.scrollY >= 90) {
@@ -24,7 +25,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-2xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
+        <div className={shadow ? 'fixed w-full h-20 shadow-2xl bg-[#ecf0f3] z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
