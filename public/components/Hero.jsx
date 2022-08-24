@@ -17,10 +17,10 @@ export const Hero = () => {
             Hi, nice to meet you.
        
           </p>
-          <h1 className='py-4 text-gray-700 dark:text-white'>I'm <span className='text-[#FF5733]'>Vanessa</span></h1>
+          <h1 className='py-4 text-gray-700 dark:text-white'>I'm <span className='text-[#FF5733] dark:text-[#395B64]'>Vanessa</span></h1>
           <h2 className='pt-2 text-gray-700 dark:text-white text-2xl'>A Front-End Developer</h2>
-          <h3 className='text-gray-700 text-lg'>with interest in Blockchain + Web3 Technologies</h3>
-          <p className='py-4 text-gray-500 max-w-[80%] m-auto'>
+          <h3 className='text-gray-700 text-lg dark:text-white'>with interest in Blockchain + Web3 Technologies</h3>
+          <p className='py-4 text-gray-500 max-w-[80%] m-auto dark:text-white'>
             I am a Front-End Developer with a passion for React and web3 technologies. I am dedicated to
             designing, building, and maintaing high performance
             applications. Enthusiastic about working in collaborative team environments to find creative
