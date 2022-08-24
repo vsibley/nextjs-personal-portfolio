@@ -23,8 +23,8 @@ const Projects = () => {
                                     on user interaction.</p>
                                 <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
                                     
-                                        <Link href='https://www.tech-ness.com/'>
-                                        <button className='dark:bg-[#395B64] py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300' > 
+                                    <Link  href='https://www.tech-ness.com/'>
+                                        <button className='bg-[##FF5733] dark:bg-[#395B64] py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300' > 
                                         Demo
                                         </button>
                                         </Link>

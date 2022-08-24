@@ -27,10 +27,10 @@ const Contact = () => {
 
     return (
         <div id='contact' className='w-full lg:h-screen px-4 dark:bg-black dark:text-white'>
-            <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-                <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#395B64] py-4'>Contact</p>
+            <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
+                <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#395B64]  dark:bg-black py-4'>Contact</p>
                 <h2 className='pb-4'>Drop me a message</h2>
-                <div className='grid lg:grid-cols-5 gap-8'>
+                <div className='grid lg:grid-cols-5 gap-8  dark:bg-black'>
                     {/* LEFT SIDE */}
                     <div className='col-span-3 lg:col-span-2 align-middle w-full h-full shadow-xl shadow-gray-500 dark:shadow-gray-800 rounded-xl p-4'>
                         <div className='lg:p-4 h-full'>

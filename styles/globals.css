@@ -12,7 +12,7 @@ font-family: 'Montserrat', sans-serif;
 }
 @layer base {
     body {
-        @apply bg-[#ecf0f3] text-[#353935] tracking-wide 
+        @apply bg-[#ecf0f3] dark:bg-black text-[#353935] tracking-wide 
     }
 
     h1,h2,h3,h4,h5 {
@@ -28,6 +28,6 @@ font-family: 'Montserrat', sans-serif;
         @apply cursor-pointer
     }
     button {
-        @apply shadow-xl rounded-xl bg-[#FF5733] text-black
+        @apply shadow-xl rounded-xl bg-[#FF5733] dark:bg-[#395B64]
     }
 }

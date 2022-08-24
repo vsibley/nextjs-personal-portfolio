@@ -56,7 +56,7 @@ const Navbar = () => {
                             <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>Contact</li>
                         </Link>
                         <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>
-                            <button className='bg-none' onClick={() => setTheme(theme === 'dark' ? 'light': 'dark')} >
+                            <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light': 'dark')} >
                                 <VscColorMode className='dark:text-white'/>
                             </button>
                         </li>
@@ -104,9 +104,9 @@ const Navbar = () => {
                             <Link href='/#contact'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
-                            <li >
-                                <button className='bg-none' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
-                                    <VscColorMode className='dark:text-white'/>
+                            <li className='py-4 text-sm'>
+                                <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
+                                    <VscColorMode size={25} className='dark:text-white'/>
                                 </button>
                             </li>
                         </ul>
