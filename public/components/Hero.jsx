@@ -2,19 +2,22 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai';
+import { useTheme } from 'next-themes';
+
 
 
 export const Hero = () => {
+
   return (
-    <div id='home' className='w-full h-full md:h-screen text-center font-mont'>
+    <div id='home' className='dark:bg-black dark:text-white w-full h-full md:h-screen text-center font-mont'>
       <div className='pt-[6rem] md:pt-[5rem] max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
 
         <div>
-          <p className='pt-10 uppercase tracking-wide text-gray-700'>
+          <p className='pt-10 uppercase tracking-wide text-gray-700 dark:text-white'>
             Hi, nice to meet you.
           </p>
-          <h1 className='py-4 text-gray-700'>I'm <span className='text-[#FF5733]'>Vanessa</span></h1>
-          <h2 className='pt-2 text-gray-700 text-2xl'>A Front-End Developer</h2>
+          <h1 className='py-4 text-gray-700 dark:text-white'>I'm <span className='text-[#FF5733]'>Vanessa</span></h1>
+          <h2 className='pt-2 text-gray-700 dark:text-white text-2xl'>A Front-End Developer</h2>
           <h3 className='text-gray-700 text-lg'>with interest in Blockchain + Web3 Technologies</h3>
           <p className='py-4 text-gray-500 max-w-[80%] m-auto'>
             I am a Front-End Developer with a passion for React and web3 technologies. I am dedicated to

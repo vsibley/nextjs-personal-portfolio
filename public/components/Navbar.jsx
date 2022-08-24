@@ -2,11 +2,19 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutline, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { useTheme } from 'next-themes';
+import { MdOutlineDarkMode, MdBrightness2 } from 'react-icons/md';
+import { BsBrightnessHigh, BsBrightnessHighFill } from 'react-icons/bs';
+
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
+    const { theme, setTheme } = useTheme();
+    console.log(theme);
+
     
     useEffect(() => {
         const scrollShadow = () => {
@@ -25,7 +33,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-2xl bg-[#ecf0f3] z-[100]' : 'fixed w-full h-20 z-[100]'}>
+        <div className={shadow ? 'fixed w-full h-20 shadow-2xl dark:bg-black dark:text-white z-[100]' : 'fixed w-full h-20 dark:bg-black dark:text-white z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
@@ -45,8 +53,13 @@ const Navbar = () => {
                             <li className='ml-10 text-sm hover:border-b border-gray-700'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Contact</li>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>Contact</li>
                         </Link>
+                        <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>
+                            <button className='bg-none' onClick={() => setTheme(theme === 'dark' ? 'light': 'dark')} >
+                            <MdOutlineDarkMode className='dark:text-white'/>
+                            </button>
+                        </li>
                     </ul>
                     <div className='md:hidden' onClick={changeNav}>
                         <AiOutlineMenu size={25} />
@@ -56,17 +69,17 @@ const Navbar = () => {
 
             {/* Side-Mobile Menu  */}
 
-            <div className={nav ? 'md:hidden fixed left-0 top-0 right-0 w-full h-screen bg-black/70' : ''}>
+            <div className={nav ? 'md:hidden fixed left-0 top-0 right-0 w-full h-screen bg-black/70 dark:text-white' : ''}>
                 <div
                     className={
                         nav
-                            ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+                            ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-black p-10 ease-in duration-500'
                             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
                     }
                 >
                     <div>
                         <div className='flex w-full justify-end pb-2'>
-                            <div className='rounded-full shadow-lg p-3 shadow-gray-500 cursor-pointer' onClick={changeNav}>
+                            <div className='rounded-full shadow-lg p-3  cursor-pointer dark:text-white dark:bg-black' onClick={changeNav}>
                                 <AiOutlineClose size={25} />
                             </div>
                         </div>
@@ -91,9 +104,14 @@ const Navbar = () => {
                             <Link href='/#contact'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
+                            <li >
+                                <button className='bg-none' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
+                                <MdOutlineDarkMode className='dark:text-white'/>
+                                </button>
+                            </li>
                         </ul>
                         {/* Social Media Connect */}
-                        <div className='pt-40 '>
+                        <div className='py-20 '>
                             <p className='uppercase tracking-widest'>Let's connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
