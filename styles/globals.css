@@ -28,6 +28,6 @@ font-family: 'Montserrat', sans-serif;
         @apply cursor-pointer
     }
     button {
-        @apply shadow-xl rounded-xl bg-gradient-to-r from-[#FF5733] to-[#e3775f] text-black
+        @apply shadow-xl rounded-xl bg-[#FF5733] text-black
     }
 }
