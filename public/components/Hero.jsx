@@ -15,6 +15,7 @@ export const Hero = () => {
         <div>
           <p className='pt-10 uppercase tracking-wide text-gray-700 dark:text-white'>
             Hi, nice to meet you.
+       
           </p>
           <h1 className='py-4 text-gray-700 dark:text-white'>I'm <span className='text-[#FF5733]'>Vanessa</span></h1>
           <h2 className='pt-2 text-gray-700 dark:text-white text-2xl'>A Front-End Developer</h2>

@@ -33,11 +33,11 @@ const Navbar = () => {
     }
 
     return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-2xl dark:bg-black dark:text-white z-[100]' : 'fixed w-full h-20 dark:bg-black dark:text-white z-[100]'}>
+        <div className={shadow ? 'fixed w-full h-20 shadow-lg dark:shadow-gray-900 dark:bg-black dark:text-white z-[100]' : 'fixed w-full h-20 dark:bg-black dark:text-white z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Link href='/'>
+                <a href='/'>
                     <Image src='/../public/assets/logo.png' alt='vs logo' width='125' height='125' />
-                </Link>
+                </a>
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 >
                     <div>
                         <div className='flex w-full justify-end pb-2'>
-                            <div className='rounded-full shadow-lg p-3  cursor-pointer dark:text-white dark:bg-black' onClick={changeNav}>
+                            <div className='rounded-full shadow-lg p-3 shadow-gray-500 cursor-pointer dark:text-white dark:bg-black dark:shadow-black' onClick={changeNav}>
                                 <AiOutlineClose size={25} />
                             </div>
                         </div>
