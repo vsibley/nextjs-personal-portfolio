@@ -6,7 +6,7 @@ const Skills = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-screen'>
         <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#395B64] py-4 '>Skills</p>
             <h2 className='py-4'>Technologies I Know</h2>
-        <p className='pb-8'>My skills are versed in technoogies enabeling me to take a product from conseption and turn it into a final product providing exceptional UX/UI and code architecture. </p>
+              <p className='pb-8'>My skills are versed in technologies enabling me to take a product from conception and turn it into a final product providing exceptional UX/UI and code architecture. </p>
             <div className='grid md:grid-cols-2 gap-8'>
 
 

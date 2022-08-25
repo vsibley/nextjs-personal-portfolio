@@ -26,21 +26,22 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='w-full lg:h-screen px-4 dark:bg-[#16161d] dark:text-[#FAF9F6]'>
+        <div id='contact' className='w-full lg:max-h-screen px-4 dark:bg-[#16161d] dark:text-[#FAF9F6]'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
                 <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#395B64]  dark:bg-[#16161d] py-4'>Contact</p>
                 <h2 className='pb-4'>Drop me a message</h2>
                 <div className='grid lg:grid-cols-5 gap-8  dark:bg-[#16161d]'>
                     {/* LEFT SIDE */}
-                    <div className='col-span-3 lg:col-span-2 align-middle w-full h-full shadow-xl shadow-gray-500 dark:shadow-black rounded-xl p-4'>
+                    <div className='col-span-3 lg:col-span-2 pt-5 align-middle w-full h-full shadow-xl shadow-gray-500 dark:shadow-black rounded-xl p-4'>
                         <div className='lg:p-4 h-full'>
                             <div>
                                 <h2 className='py-2'>Vanessa Sibley</h2>
-                                <p>Front-End Developer | Blockchain Web3</p>
-                                <p>I am available for contract, freelance and full-time positions. </p>
+                                <p className='py-2'>Front-End Developer | Web3</p>
+                                <p className='py-2'>I am available for contract, freelance and full-time positions. </p>
+                                <p className='py-2'>I am available for contract, freelance and full-time positions. </p>
                             </div>
                             <div>
-                                <p className='pt-8'>Let's connect</p>
+                                <p className='pt-10 pb-2'>Let's connect</p>
                                 <div className='flex items-center justify-between py-4'>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
                                         <a href="https://www.linkedin.com/in/vanessa-sibley/">

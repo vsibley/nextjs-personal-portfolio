@@ -21,10 +21,7 @@ export const Hero = () => {
           <h2 className='pt-2 text-gray-700 dark:text-[#FAF9F6] text-2xl'>A Front-End Developer</h2>
           <h3 className='text-gray-700 text-lg dark:text-[#FAF9F6]'>with interest in Blockchain + Web3 Technologies</h3>
           <p className='py-4 text-gray-500 max-w-[80%] m-auto dark:text-white'>
-            I am a Front-End Developer with a passion for React and web3 technologies. I am dedicated to
-            designing, building, and maintaing high performance
-            applications. Enthusiastic about working in collaborative team environments to find creative
-            solutions for challenging engineering problems.
+            I am a Front-End Developer with a passion for React and web3 technologies. I am dedicated to designing, building, and maintaining high-performance applications. Enthusiastic about working in collaborative team environments to find creative solutions for challenging engineering problems.
           </p>
           <div className='flex pt-5 items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
