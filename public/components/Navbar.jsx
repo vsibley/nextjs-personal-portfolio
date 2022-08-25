@@ -33,7 +33,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-lg dark:shadow-gray-900 dark:bg-black dark:text-white z-[100]' : 'fixed w-full h-20 dark:bg-black dark:text-white z-[100]'}>
+        <div className={shadow ? 'fixed w-full h-20 shadow-md dark:shadow-black dark:bg-[#16161d] dark:text-white z-[100]' : 'fixed w-full h-20 dark:bg dark:text-white z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <a href='/'>
                     <Image src='/../public/assets/logo.png' alt='vs logo' width='85' height='85'/>
@@ -73,13 +73,13 @@ const Navbar = () => {
                 <div
                     className={
                         nav
-                            ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-black p-10 ease-in duration-500'
+                            ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#16161d] p-10 ease-in duration-500'
                             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
                     }
                 >
                     <div>
                         <div className='flex w-full justify-end pb-2'>
-                            <div className='rounded-full shadow-lg p-3 shadow-gray-500 cursor-pointer dark:text-white dark:bg-black dark:shadow-black' onClick={changeNav}>
+                            <div className='rounded-full shadow-lg p-3 shadow-gray-500 cursor-pointer dark:text-[#FAF9F6] dark:shadow-black dark:bg-[#16161d]' onClick={changeNav}>
                                 <AiOutlineClose size={25} />
                             </div>
                         </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
                             </Link>
                             <li className='py-4 text-sm'>
                                 <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
-                                    <VscColorMode size={25} className='dark:text-white'/>
+                                    <VscColorMode size={25} className='dark:text-[#FAF9F6]'/>
                                 </button>
                             </li>
                         </ul>
@@ -114,17 +114,17 @@ const Navbar = () => {
                         <div className='py-20 '>
                             <p className='uppercase tracking-widest'>Let's connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                                <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                     <a href="https://www.linkedin.com/in/vanessa-sibley/"><FaLinkedin /></a>
 
                                 </div>
-                                <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                                <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                     <a href="https://github.com/vsibley">
                                         <FaGithub />
                                     </a>
 
                                 </div>
-                                <div className='rounded-xl shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                                <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                                     <a href="https://www.instagram.com/gitinit.ness/?igshid=YmMyMTA2M2Y%3D">
                                         <FaInstagram />
                                         
