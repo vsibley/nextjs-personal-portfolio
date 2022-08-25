@@ -18,7 +18,7 @@
 - [Getting Started](#toolbox-getting-started)
   * [Prerequisites](#bangbang-prerequisites)
   * [Installation](#gear-installation)
-  * [Run Locally](#running-run-locally)
+  * [Run Locally](#running_woman-run-locally)
 - [Contact](#wave-contact)
   
 
@@ -82,7 +82,7 @@ Install nextjs-personal-portfolio with npm
 
 
 <!-- Run Locally -->
-### :running: Run Locally
+### :running_woman: Run Locally
 
 Clone the project
 
