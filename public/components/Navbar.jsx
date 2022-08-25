@@ -114,17 +114,17 @@ const Navbar = () => {
                             <p className='uppercase tracking-widest'>Let's connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <a href="https://www.linkedin.com/in/vanessa-sibley/"><FaLinkedin /></a>
+                                    <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank"><FaLinkedin /></a>
 
                                 </div>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <a href="https://github.com/vsibley">
+                                    <a href="https://github.com/vsibley" target="_blank">
                                         <FaGithub />
                                     </a>
 
                                 </div>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <a href="https://www.instagram.com/gitinit.ness/?igshid=YmMyMTA2M2Y%3D">
+                                    <a href="https://www.instagram.com/gitinit.ness/?igshid=YmMyMTA2M2Y%3D" target="_blank">
                                         <FaInstagram />
                                         
                                     </a>
