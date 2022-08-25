@@ -111,5 +111,5 @@ Start the server
 <!-- Contact -->
 ## :wave: Contact
 
-<h3>[Linkedin](https://www.linkedin.com/in/vanessa-sibley/) </h3>
+<h3>(https://www.linkedin.com/in/vanessa-sibley/) </h3>
 
