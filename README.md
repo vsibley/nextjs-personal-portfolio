@@ -30,6 +30,7 @@
 
 <div align="center"> 
   <img src="/public/assets/Screenshot.png" />
+  <img src="/public/assets/ScreenshotDark.png" />
 </div>
 
 
