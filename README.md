@@ -13,13 +13,13 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Tech Stack](#space_invader-tech-stack)
+  * [Tech Stack](#computer-tech-stack)
   * [Features](#dart-features)
 - [Getting Started](#toolbox-getting-started)
   * [Prerequisites](#bangbang-prerequisites)
   * [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
-- [Contact](#handshake-contact)
+- [Contact](#wave-contact)
   
 
 <!-- About the Project -->
@@ -35,7 +35,7 @@
 
 
 <!-- TechStack -->
-### :space_invader: Tech Stack
+### :computer: Tech Stack
 
 <details>
   <summary>Client</summary>
@@ -109,7 +109,7 @@ Start the server
 ```
 
 <!-- Contact -->
-## :handshake: Contact
+## :wave: Contact
 
-[Linkedin](https://www.linkedin.com/in/vanessa-sibley/) - 
+<h3>[Linkedin](https://www.linkedin.com/in/vanessa-sibley/) </h3>
 
