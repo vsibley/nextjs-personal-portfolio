@@ -13,7 +13,6 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
     const { theme, setTheme } = useTheme();
-    console.log(theme);
 
     
     useEffect(() => {
