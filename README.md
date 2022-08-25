@@ -1,34 +1,111 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <img src="assets/logo/logo.png" alt="vs logo" width="200" height="auto" />
+  <h1>Vanessa Sibley's personal portfolio</h1>
+  
 
-First, run the development server:
+<br />
+
+<!-- Table of Contents -->
+# :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+  * [Tech Stack](#space_invader-tech-stack)
+  * [Features](#dart-features)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Installation](#gear-installation)
+  * [Run Locally](#running-run-locally)
+- [Contact](#handshake-contact)
+  
+
+<!-- About the Project -->
+## :star2: About the Project
+
+<p>This project showcases my skills and knowledge of React, React Hooks, Next.js, Tailwind CSS, Netlify. I chose to utilized Next.js for this project so that I could utilize some of the following featues the framework offer to improve SEO.
+</p>
+
+<div align="center"> 
+  <img src="/public/assets/Screenshot.png" />
+</div>
+
+
+<!-- TechStack -->
+### :space_invader: Tech Stack
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://github.com/pacocoursey/next-themes">Next-themes</a></li>
+  </ul>
+</details>
+
+
+
+<!-- Features -->
+### :dart: Features
+
+- Image lazy loading to improve page loading speed and SEO.
+- Smooth scroll and back to top button to create an easier user experience.
+- Dark and light mode toggel button.
+
+
+
+<!-- Getting Started -->
+## 	:toolbox: Getting Started
+
+<!-- Prerequisites -->
+### :bangbang: Prerequisites
+
+This project uses Yarn as package manager
 
 ```bash
-npm run dev
-# or
-yarn dev
+ npm install --global yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- Installation -->
+### :gear: Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Install nextjs-personal-portfolio with npm
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+  yarn install nextjs-personal-portfolio
+  cd nextjs-personal-portfolio
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+<!-- Run Locally -->
+### :running: Run Locally
 
-To learn more about Next.js, take a look at the following resources:
+Clone the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+ https://github.com/vsibley/nextjs-personal-portfolio.git
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Go to the project directory
 
-## Deploy on Vercel
+```bash
+  cd nextjs-personal-portfolio
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  yarn dev
+```
+
+<!-- Contact -->
+## :handshake: Contact
+
+[Linkedin](https://www.linkedin.com/in/vanessa-sibley/) - 
+
