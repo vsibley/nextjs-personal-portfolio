@@ -1,10 +1,13 @@
 <div align="center">
 
-  <img src="assets/logo/logo.png" alt="vs logo" width="200" height="auto" />
+  <img src="/public/assets/logo/logo.png" alt="vs logo" width="200" height="auto" />
   <h1>Vanessa Sibley's personal portfolio</h1>
   
 
 <br />
+</div>
+
+<div align="left">
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
