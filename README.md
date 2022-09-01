@@ -1,9 +1,5 @@
 <div align="center">
-
-  <img src="/public/assets/logo/logo.png" alt="vs logo" width="200" height="auto" />
   <h1>Vanessa Sibley's personal portfolio</h1>
-  
-
 <br />
 </div>
 
@@ -22,7 +18,7 @@
 - [Contact](#wave-contact)
   
 
-<!-- About the Project -->
+<!-- About -->
 ## :star2: About the Project
 
 <p>This project showcases my skills and knowledge of React, React Hooks, Next.js, Tailwind CSS, Netlify. I chose to utilized Next.js for this project so that I could utilize some of the following featues the framework offer to improve SEO.
@@ -34,7 +30,7 @@
 </div>
 
 
-<!-- TechStack -->
+<!-- TechStack Used -->
 ### :computer: Tech Stack
 
 <details>
