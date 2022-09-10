@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import techblog from '../assets/projects/techblog.png';
 import portfolio from '../assets/projects/portfolio.png';
+import githubFinder from '../assets/projects/githubFinder.png';
 
 const Projects = () => {
     return (
@@ -11,7 +12,34 @@ const Projects = () => {
 
                 <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#395B64]  py-4'>Projects</p>
                 <h2 className=' py-2 pb-6'>My most recent work</h2>
-                <div className='grid md:grid-cols-2 gap-8 '>
+                <div className='grid md:grid-cols-3 gap-8 '>
+
+                    <div className='shadow-2xl rounded-xl dark:shadow-black'>
+                        <div className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4 '>
+                            <Image className='rounded-xl' src={githubFinder} alt='' />
+                            <div className='p-3'>
+                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Github API, Tailwind CSS, daisyUI.</span></p>
+                                <p>The Github Finder application is a minimalistic dark themed search tool to display Github users and their information using Github API.</p>
+                                <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
+                                    
+                                    <a href='https://github-finder-3021w2xvk-vsibley.vercel.app/' target="_blank">
+                                        <button className='bg-[##FF5733] dark:bg-[#395B64] py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300' > 
+                                        Demo
+                                        </button>
+                                        </a>
+                                        
+                                    <button className='dark:bg-[#395B64]  py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>
+                                        <a href='https://github.com/vsibley/github-finder' target="_blank">
+                                        Code</a> 
+                                        </button>
+                                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* CARD TWO */}
+
 
                     <div className='shadow-2xl rounded-xl dark:shadow-black'>
                         <div className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4 '>
@@ -39,7 +67,8 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    {/* CARD 2 */}
+
+                    {/* CARD THREE */}
                     <div className='shadow-2xl rounded-xl dark:shadow-black'>
                         <div className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4'>
                             <Image className='rounded-xl' src={portfolio} alt='' />
