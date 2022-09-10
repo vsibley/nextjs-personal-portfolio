@@ -14,14 +14,14 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl md:hover:scale-110 ease-in duration-300 dark:border-gray-500 dark:border-2'>
                     <div className='grid grid-cols-1 gap-4 justify-center items-center text-center'>
               <p className='text-2xl font-bold tracking-wider py-4 uppercase'>Web 2 Skills 🌐 </p>
-              <p className='text-gray-600 dark:text-[#FAF9F6] tracking-wide'>HTML, CSS, JavaScript, Typescript, React, Next.js, Node.js, GraphQL, Tailwind CSS, Bootstrap, Git, CI/CD skill, SASS, SEO, Figma.</p>
+              <p className='text-gray-600 dark:text-[#FAF9F6] tracking-wider'>HTML, CSS, JavaScript, Typescript, React, Next.js, Node.js, GraphQL, Tailwind CSS, Bootstrap, Git, CI/CD skill, SASS, SEO, Figma.</p>
                     </div>
                 </div>
 
                   <div className='p-6 shadow-xl dark:shadow-none  dark:border-2 dark:border-gray-500 rounded-xl md:hover:scale-110 ease-in duration-300'>
                       <div className='grid grid-cols-1 gap-4 justify-center items-center text-center'>
               <p className='text-2xl font-bold tracking-wider py-4 uppercase'>Web 3 Skills 🔗 </p>
-              <p className='text-gray-600 dark:text-[#FAF9F6] tracking-wide '>Blockchain Basics, Solidity, Hardhat, Ganache, Ethers.js, SDK, Remix, Major DeFi Protocols. </p>
+              <p className='text-gray-600 dark:text-[#FAF9F6] tracking-wider '>Blockchain Basics, Solidity, Hardhat, Ganache, Ethers.js. </p>
                     </div>
 
                 </div>
