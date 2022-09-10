@@ -37,8 +37,6 @@ const Contact = () => {
                             <div>
                                 <h2 className='py-2'>Vanessa Sibley</h2>
                                 <p className='py-2'>Front-End Developer | Web3</p>
-                                <p className='py-2'>I am available for contract, freelance and full-time positions. </p>
-                                <p className='py-2'>I am available for contract, freelance and full-time positions. </p>
                             </div>
                             <div>
                                 <p className='pt-10 pb-2'>Let's connect</p>
