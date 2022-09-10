@@ -18,7 +18,7 @@ const Projects = () => {
                         <div className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4 '>
                             <Image className='rounded-xl' src={githubFinder} alt='' />
                             <div className='p-3'>
-                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Github API, Tailwind CSS, daisyUI.</span></p>
+                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Github API, Tailwind CSS, daisyUI, Vercel.</span></p>
                                 <p>The Github Finder application is a minimalistic dark themed search tool to display Github users and their information using Github API.</p>
                                 <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
                                     
@@ -45,7 +45,7 @@ const Projects = () => {
                         <div className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4 '>
                             <Image className='rounded-xl' src={techblog} alt='' />
                             <div className='p-3'>
-                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Next.js, Tailwind CSS, GraphQL.</span></p>
+                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Next.js, Tailwind CSS, GraphQL, Netlify.</span></p>
                                 <p>I Utilizing GraphQL to retrieve post data by configuring
                                     React Components to make GROQ Query API calls based
                                     on user interaction.</p>
@@ -73,7 +73,7 @@ const Projects = () => {
                         <div className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4'>
                             <Image className='rounded-xl' src={portfolio} alt='' />
                             <div className='p-3'>
-                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Next.js, Tailwind CSS. </span></p>
+                                <p className='py-2'>Technologies Used:<span className='font-bold'> React.js, Next.js, Tailwind CSS, Vercel. </span></p>
                                 <p>This is the first portfolio I built with React to showcase the skills I learned and projects I've completed.</p>
                                 <div className='flex flex-cols-2 pt-6 items-center justify-center gap-10 p-3'>
                                     <button className='dark:bg-[#395B64]  py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>
