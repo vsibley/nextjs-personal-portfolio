@@ -29,7 +29,7 @@ const Projects = () => {
                                         </a>
                                         
                                     <button className='dark:bg-[#395B64]  py-4 px-5 md:px-8 font-bold hover:scale-110 ease-in duration-300'>
-                                        <a href='https://github.com/vsibley/github-finder' target="_blank">
+                                        <a href='https://github.com/vsibley/github-finder-main' target="_blank">
                                         Code</a> 
                                         </button>
                                             
