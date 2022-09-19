@@ -80,7 +80,7 @@ const Projects = () => {
                                 <p>This is the first portfolio I built with React to showcase the skills I learned and projects I've completed.</p>
                                 <div className='flex flex-cols-2 pt-6 items-center justify-center gap-10 p-3'>
                                     <button className='dark:bg-[#395B64]  py-4 px-5 font-bold hover:scale-110 ease-in duration-300'>
-                                        <a href="https:/vanessasibley-reactportfolio.netlify.app/" target="_blank">
+                                        <a href="https://vanessasibley-reactportfolio.netlify.app/" target="_blank">
                                             Demo
                                         </a>
                                     </button>
