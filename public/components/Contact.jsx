@@ -4,9 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import Link from 'next/link';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
-
-
-
+import { toast } from 'react-toastify';
 
 
 
@@ -19,7 +17,7 @@ const Contact = () => {
         emailjs.sendForm('service_auvzot8', 'template_jldzpwk', form.current, 'rkArMhE9ZKapPd4ND')
             .then((result) => {
                 console.log(result.text);
-                alert('Message has been sent! 😁')
+                toast.success('Message has been sent! 😁')
             }, (error) => {
                 console.log(error.text);
             });
@@ -77,7 +75,7 @@ const Contact = () => {
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Message</label>
-                                    <textarea className='border-2 rounded-xl p-3 flex border-gray-500' rows='3' type="text" name="message" id="" placeholder='MESSAGE' />
+                                    <textarea className='border-2 rounded-xl p-3 flex border-gray-500' rows='3' type="text" name="message" id="message" placeholder='MESSAGE' />
                                 </div>
                                
                                 <input type="submit" value='SEND' className='w-full p-4 font-bold mt-4 shadow-xl shadow-gray-400 rounded-xl bg-[#FF5733] dark:bg-[#395B64] dark:shadow-none dark:text-[#FAF9F6] text-black hover:scale-105' />
