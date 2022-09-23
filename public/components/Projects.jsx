@@ -6,7 +6,7 @@ const Projects = () => {
         {
             name: 'Casa Housing',
             img: '/../assets/projects/casaHousing.png',
-            demo: 'https://github.com/vsibley/github-finder-main',
+            demo: 'https://casa-project.vercel.app/',
             code: 'https://github.com/vsibley/github-finder-main',
             tech: 'React.js, Firebase, Tailwind CSS, daisyUI, Vercel.',
             disc: 'Casa is a website designed for users to post their properties for sale or to rent. This project has features that allow you to sign up with Google Oauth, Geolocation, React Hooks, Custom Hooks, full CRUD capablities',
