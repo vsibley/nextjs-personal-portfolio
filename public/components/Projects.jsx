@@ -36,22 +36,22 @@ const Projects = () => {
             disc: 'This is the first portfolio I built with React to showcase the skills I learned and projects I have completed.',
         },
     ]
-    
+
     return (
         <div id='projects' className='w-full h-full px-4 dark:bg-[#16161d] dark:text-[#FAF9F6]'>
             <div className='max-w-[1240px] mx-auto px-2 w-full max-h-full py-16'>
 
-                <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#395B64]  py-4'>Projects</p>
+                <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#65afc4]  py-4'>Projects</p>
                 <h2 className=' py-2 pb-6'>My most recent work</h2>
                 <div className='grid md:grid-cols-2 gap-8 '>
 
                     {/* CARD ONE  */}
 
                     {
-                        projects.map(({name, img, demo, code, tech, disc}) => (
+                        projects.map(({ name, img, demo, code, tech, disc }) => (
                             <div key={name} className='grid grid-cols-1 gap-4 justify-center items-center text-center p-4 shadow-2xl rounded-xl dark:shadow-black'>
                                 <img
-                                 className='rounded-xl object-cover' src={img} alt=''/>
+                                    className='rounded-xl object-cover' src={img} alt='' />
 
                                 <div className='p-3'>
                                     <p className='py-2'><span className='font-bold'> {tech}</span></p>
@@ -59,12 +59,12 @@ const Projects = () => {
                                     <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
 
                                         <a href={demo} target="_blank">
-                                            <button className='bg-[##FF5733] dark:bg-[#395B64] py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="Demo">
+                                            <button className='bg-[##FF5733] dark:bg-[#65afc4] py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="Demo">
                                                 Demo
                                             </button>
                                         </a>
 
-                                        <button className='dark:bg-[#395B64]  py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="code">
+                                        <button className='dark:bg-[#65afc4]  py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="code">
                                             <a href={code} target="_blank">
                                                 Code</a>
                                         </button>
@@ -77,10 +77,10 @@ const Projects = () => {
 
 
                     <div className=''>
-                        
+
                     </div>
 
-                 
+
                 </div>
             </div>
         </div>

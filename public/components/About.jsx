@@ -1,5 +1,5 @@
 import React from 'react'
-import {useTheme} from 'next-themes';
+import { useTheme } from 'next-themes';
 
 const About = () => {
     const { theme, setTheme } = useTheme();
@@ -8,7 +8,7 @@ const About = () => {
         <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 px-4 font-mont dark:bg-[#16161d] dark:text-[#FAF9F6]'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
-                    <p className='uppercase text-xl tracking-wider text-[#FF5733] dark:text-[#395B64]'>About</p>
+                    <p className='uppercase text-xl tracking-wider text-[#FF5733] dark:text-[#65afc4]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
                     <p className='py-2 text-gray-600 dark:text-[#FAF9F6]'>I'm an extroverted, overly caffeinated Software Developer. I'm dedicated to being a force of positivity for those I interact with in my professional and personal life. </p>
                     <p className='py-2 text-gray-600 dark:text-[#FAF9F6]'>
