@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-md bg-[#ecf0f3] dark:shadow-black dark:bg-[#16161d] dark:text-white z-[100]' : 'fixed w-full h-20  dark:bg dark:text-white z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <a href='/'>
-                    <Image src='/assets/logo/logo.png' alt='vs logo' width='85' height='85'/>
+                    <Image src='/assets/logo/logo.png' alt='vs logo' width='85' height='85' aria-label="routes to home page" />
                 </a>
                 <div>
                     <ul className='hidden md:flex'>
@@ -55,7 +55,7 @@ const Navbar = () => {
                             <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>Contact</li>
                         </Link>
                         <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>
-                            <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light': 'dark')} >
+                            <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="light and dark mode">
                                 <VscColorMode className='dark:text-white'/>
                             </button>
                         </li>
@@ -104,7 +104,7 @@ const Navbar = () => {
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                             <li className='py-4 text-sm'>
-                                <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
+                                <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="change dark and light mode theme">
                                     <VscColorMode size={25} className='dark:text-[#FAF9F6]'/>
                                 </button>
                             </li>

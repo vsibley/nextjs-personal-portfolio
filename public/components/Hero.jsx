@@ -24,22 +24,22 @@ export const Hero = () => {
           </p>
           <div className='flex pt-5 items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-              <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank">
+              <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank" aria-label="routes to linkedin page">
                 <FaLinkedin />
               </a>
 
             </div>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-              <a href="https://github.com/vsibley" target="_blank"><FaGithub /></a>
+              <a href="https://github.com/vsibley" target="_blank" aria-label="routes to Github page"><FaGithub /></a>
 
             </div>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-              <a href="mailto:sibley.vanessas@gmail.com" target="_blank">
+              <a href="mailto:sibley.vanessas@gmail.com" target="_blank" aria-label="opens default mail browser to send email">
                 <AiOutlineMail />
               </a>
             </div>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-              <a href="https://drive.google.com/file/d/1FYy7R1VspK3XYtLuPWeiSc7uqCj-yGSu/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/1FYy7R1VspK3XYtLuPWeiSc7uqCj-yGSu/view?usp=sharing" target="_blank" aria-label="routes to resume">
                 <BsFillPersonLinesFill />
               </a>
             </div>

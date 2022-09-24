@@ -59,12 +59,12 @@ const Projects = () => {
                                     <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
 
                                         <a href={demo} target="_blank">
-                                            <button className='bg-[##FF5733] dark:bg-[#395B64] py-4 px-5 font-bold hover:scale-110 ease-in duration-300' >
+                                            <button className='bg-[##FF5733] dark:bg-[#395B64] py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="Demo">
                                                 Demo
                                             </button>
                                         </a>
 
-                                        <button className='dark:bg-[#395B64]  py-4 px-5 font-bold hover:scale-110 ease-in duration-300'>
+                                        <button className='dark:bg-[#395B64]  py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="code">
                                             <a href={code} target="_blank">
                                                 Code</a>
                                         </button>

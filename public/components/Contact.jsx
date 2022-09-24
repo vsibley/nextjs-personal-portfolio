@@ -40,16 +40,16 @@ const Contact = () => {
                                 <p className='pt-10 pb-2'>Let's connect</p>
                                 <div className='flex items-center justify-between py-4'>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-                                        <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank">
+                                        <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank" aria-label="routes to linkedin page">
                                             <FaLinkedin />
                                         </a>
                                     </div>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 dark:shadow-black duration-500'>
-                                        <a href="https://github.com/vsibley" target="_blank"><FaGithub /></a>
+                                        <a href="https://github.com/vsibley" target="_blank" aria-label="routes to Github page"><FaGithub /></a>
                                         
                                     </div>
                                     <div className='rounded-xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 dark:shadow-black duration-500'>
-                                        <a href="mailto:sibley.vanessas@gmail.com" target="_blank">
+                                        <a href="mailto:sibley.vanessas@gmail.com" target="_blank" aria-label="Opens default mail brower to send email">
                                             <AiOutlineMail /></a>
                                         
                                     </div>
