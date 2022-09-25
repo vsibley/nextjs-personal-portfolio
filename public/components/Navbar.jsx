@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { AiOutline, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { useTheme } from 'next-themes';
-import { MdOutlineDarkMode, MdBrightness2 } from 'react-icons/md';
+import { BsSun } from 'react-icons/bs';
 import { VscColorMode } from 'react-icons/vsc';
+import { BiMoon } from 'react-icons/bi'
 
 
 
@@ -55,9 +56,10 @@ const Navbar = () => {
                             <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>Contact</li>
                         </Link>
                         <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>
-                            <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="light and dark mode">
-                                <VscColorMode className='dark:text-white'/>
-                            </button>
+                            <p className='text-xl' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="light and dark mode">
+                               
+                                {theme === 'dark' ? <BsSun /> : < BiMoon />}
+                            </p>
                         </li>
                     </ul>
                     <div className='md:hidden' onClick={changeNav}>
@@ -104,9 +106,11 @@ const Navbar = () => {
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                             <li className='py-4 text-sm'>
-                                <button className='bg-white' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="change dark and light mode theme">
-                                    <VscColorMode size={25} className='dark:text-[#FAF9F6]'/>
-                                </button>
+                            
+                                    <p className='text-xl' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="light and dark mode">
+
+                                        {theme === 'dark' ? <BsSun /> : < BiMoon />}
+                                    </p>
                             </li>
                         </ul>
                         {/* Social Media Connect */}
