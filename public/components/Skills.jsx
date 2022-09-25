@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2 px-4 dark:text-[#FAF9F6] dark:bg-[#16161d] dark:shadow-black'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-screen'>
-        <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#65afc4] py-4 '>Skills</p>
+        <p className='text-xl tracking-wider uppercase text-[#684889] dark:text-[#65afc4] py-4 '>Skills</p>
         <h2 className='py-4'>Technologies I Know</h2>
         <p className='pb-8'>My skills are versed in technologies enabling me to take a product from conception and turn it into a final product providing exceptional UX/UI and code architecture. </p>
         <div className='grid md:grid-cols-2 gap-8'>

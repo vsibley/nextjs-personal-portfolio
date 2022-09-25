@@ -41,7 +41,7 @@ const Projects = () => {
         <div id='projects' className='w-full h-full px-4 dark:bg-[#16161d] dark:text-[#FAF9F6]'>
             <div className='max-w-[1240px] mx-auto px-2 w-full max-h-full py-16'>
 
-                <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#65afc4]  py-4'>Projects</p>
+                <p className='text-xl tracking-wider uppercase text-[#684889] dark:text-[#65afc4]  py-4'>Projects</p>
                 <h2 className=' py-2 pb-6'>My most recent work</h2>
                 <div className='grid md:grid-cols-2 gap-8 '>
 
@@ -59,7 +59,7 @@ const Projects = () => {
                                     <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
 
                                         <a href={demo} target="_blank">
-                                            <button className='bg-[##FF5733] dark:bg-[#65afc4] py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="Demo">
+                                            <button className='bg-[##684889] dark:bg-[#65afc4] py-4 px-5 font-bold hover:scale-110 ease-in duration-300' aria-label="Demo">
                                                 Demo
                                             </button>
                                         </a>

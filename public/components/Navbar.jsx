@@ -56,7 +56,7 @@ const Navbar = () => {
                             <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>Contact</li>
                         </Link>
                         <li className='ml-10 text-sm hover:border-b border-gray-700 dark:text-white'>
-                            <p className='text-xl' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="light and dark mode">
+                            <p className='text-xl' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
                                
                                 {theme === 'dark' ? <BsSun /> : < BiMoon />}
                             </p>
@@ -107,7 +107,7 @@ const Navbar = () => {
                             </Link>
                             <li className='py-4 text-sm'>
                             
-                                    <p className='text-xl' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="light and dark mode">
+                                    <p className='text-xl' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
 
                                         {theme === 'dark' ? <BsSun /> : < BiMoon />}
                                     </p>
@@ -118,17 +118,17 @@ const Navbar = () => {
                             <p className='uppercase tracking-widest'>Let's connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank"><FaLinkedin /></a>
+                                    <a href="https://www.linkedin.com/in/vanessa-sibley/" target="_blank" aria-label='routes to linkedin'><FaLinkedin /></a>
 
                                 </div>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <a href="https://github.com/vsibley" target="_blank">
+                                    <a href="https://github.com/vsibley" target="_blank" aria-label='routes to github'>
                                         <FaGithub />
                                     </a>
 
                                 </div>
                                 <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                    <a href="https://www.instagram.com/gitinit.ness/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                                    <a href="https://www.instagram.com/gitinit.ness/?igshid=YmMyMTA2M2Y%3D" target="_blank" aria-label='routes to instagram'>
                                         <FaInstagram />
                                         
                                     </a>

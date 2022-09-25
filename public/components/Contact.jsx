@@ -26,7 +26,7 @@ const Contact = () => {
     return (
         <div id='contact' className='w-full lg:max-h-screen px-4 dark:bg-[#16161d] dark:text-[#FAF9F6]'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-                <p className='text-xl tracking-wider uppercase text-[#FF5733] dark:text-[#65afc4]  dark:bg-[#16161d] py-4'>Contact</p>
+                <p className='text-xl tracking-wider uppercase text-[#684889] dark:text-[#65afc4]  dark:bg-[#16161d] py-4'>Contact</p>
                 <h2 className='pb-4'>Drop me a message</h2>
                 <div className='grid lg:grid-cols-5 gap-8  dark:bg-[#16161d]'>
                     {/* LEFT SIDE */}
@@ -78,7 +78,7 @@ const Contact = () => {
                                     <textarea className='border-2 rounded-xl p-3 flex border-gray-500' rows='3' type="text" name="message" id="message" placeholder='MESSAGE' />
                                 </div>
 
-                                <input type="submit" value='SEND' className='w-full p-4 font-bold mt-4 shadow-xl shadow-gray-400 rounded-xl bg-[#FF5733] dark:bg-[#65afc4] dark:shadow-none dark:text-[#FAF9F6] text-black hover:scale-105' />
+                                <input type="submit" value='SEND' className='w-full p-4 font-bold mt-4 shadow-xl shadow-gray-400 rounded-xl bg-[#684889] dark:bg-[#65afc4] dark:shadow-none dark:text-[#FAF9F6] text-black hover:scale-105 hover:bg-[#461773] hover:text-white' />
 
                             </form>
 
@@ -90,7 +90,7 @@ const Contact = () => {
                 <div className='flex justify-center py-10 '>
                     <Link href='/'>
                         <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-                            <HiOutlineChevronDoubleUp size={30} className='text-[#FF5733] dark:text-[#65afc4] font-extrabold' />
+                            <HiOutlineChevronDoubleUp size={30} className='text-[#684889] dark:text-[#65afc4] font-extrabold' />
                         </div>
                     </Link>
                 </div>

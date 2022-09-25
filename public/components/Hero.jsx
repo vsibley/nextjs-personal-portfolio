@@ -18,7 +18,7 @@ export const Hero = () => {
             Hi, nice to meet you.
 
           </p>
-          <h1 className='py-3 text-gray-700 dark:text-[#FAF9F6]'>I'm <span className='text-[#FF5733] dark:text-[#65afc4]'>Vanessa</span></h1>
+          <h1 className='py-3 text-gray-700 dark:text-[#FAF9F6]'>I'm <span className='text-[#684889] dark:text-[#65afc4]'>Vanessa</span></h1>
           <p className='py-4 text-gray-500 max-w-[80%] m-auto dark:text-white'>
             I am a Front-End Developer with a passion for React and web3 technologies. I am dedicated to designing, building, and maintaining high-performance applications. Enthusiastic about working in collaborative team environments to find creative solutions for challenging engineering problems.
           </p>
