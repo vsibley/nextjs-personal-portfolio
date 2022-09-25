@@ -21,7 +21,7 @@ const Navbar = () => {
             if (window.scrollY >= 90) {
                 setShadow(true)
             } else {
-                setShadow(false);
+                setShadow(false); 
             }
         };
         window.addEventListener('scroll', scrollShadow);
