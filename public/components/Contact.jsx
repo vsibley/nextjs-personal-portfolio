@@ -78,7 +78,7 @@ const Contact = () => {
                                     <textarea className='border-2 rounded-xl p-3 flex border-gray-500' rows='3' type="text" name="message" id="message" placeholder='MESSAGE' />
                                 </div>
 
-                                <input type="submit" value='SEND' className='w-full p-4 font-bold mt-4 shadow-xl shadow-gray-400 rounded-xl bg-[#684889] dark:bg-[#65afc4] dark:shadow-none dark:text-[#FAF9F6] text-black hover:scale-105 hover:bg-[#461773] hover:text-white' />
+                                <input type="submit" value='SEND' className='w-full p-4 font-bold mt-4 shadow-xl shadow-gray-400 rounded-xl bg-[#684889] dark:bg-[#65afc4] dark:shadow-none dark:text-[#FAF9F6] text-white hover:scale-105 hover:bg-[#461773] hover:text-white' />
 
                             </form>
 

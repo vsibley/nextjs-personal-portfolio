@@ -5,7 +5,7 @@ const About = () => {
     const { theme, setTheme } = useTheme();
 
     return (
-        <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 px-4 font-mont dark:bg-[#16161d] dark:text-[#FAF9F6]'>
+        <div id='about' className='w-full md:h-full p-2 flex items-center py-16 md:py-0  px-4 font-mont dark:bg-[#16161d] dark:text-[#FAF9F6]'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-wider text-[#684889] dark:text-[#65afc4]'>About</p>
