@@ -25,7 +25,7 @@ const casahousing = () => {
 
           <h2 className='pt-6 py-2 text-2xl md:text-4xl'>Overview</h2>
 
-          <Link href='/#projects'>
+          <Link href='/#projects' aria-label='routes back to project section'>
               <p className='underline cursor-pointer hover:text-[#684889] hover:scale-110'>Back</p>
           </Link>
 </div>
@@ -40,6 +40,7 @@ const casahousing = () => {
             href='https://github.com/vsibley/housing-market'
             target='_blank'
             rel='noreferrer'
+            aria-label='routes to project code'
           >
             <button className='px-8 py-2 text-white mt-4 mr-8 hover:scale-105'>Code</button>
           </a>
@@ -47,6 +48,7 @@ const casahousing = () => {
             href='https://casa-project.vercel.app/'
             target='_blank'
             rel='noreferrer'
+            aria-label='routes to project'
           >
             <button className='px-8  text-white py-2 mt-4 hover:scale-105'>Demo</button>
           </a>

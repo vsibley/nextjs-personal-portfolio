@@ -59,7 +59,7 @@ const Projects = () => {
                                     <p><span className='text-2xl'> {name}</span></p>
                                     <div className='flex flex-cols-2 items-center justify-center gap-10 p-3 pt-6'>
 
-                                        <a href={route} target="_blank" aria-label="Read more about Seminole my project">
+                                        <a href={route} target="_blank" aria-label="Read more about my project">
                                             <button className='bg-[##684889] dark:bg-[#65afc4] py-4 px-5 btn-wide hover:scale-110 ease-in duration-300' aria-label="Demo">
                                                 More Info
                                             </button>
