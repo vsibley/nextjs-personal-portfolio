@@ -8,7 +8,7 @@ const technessblog = () => {
     return (
 
 
-        <div className='pt-[7rem] md:pt-[5rem] justify-center px-4 max-w-[1240px] min-h-screen mx-auto p-2 md:grid-cols-5 gap-8'>
+        <div className='pt-[7rem] md:pt-[5rem] justify-center px-4 max-w-[1240px] min-h-screen mx-auto p-2 md:grid-cols-5 gap-8 dark:text-gray-300'>
             <div className='mb-2 md:pb-5'>
                 <h2 className='pb-1'>First React Portfolio</h2>
                 <h3>React JS / Tailwind / DaisyUI</h3>
@@ -50,26 +50,26 @@ const technessblog = () => {
 
                     <div className="pt-[3rem]  mx-auto">
 
-                        <div className='col-span-4 md:col-span-1 shadow-xl mb-[7rem] shadow-gray-400 rounded-xl pt-4'>
+                        <div className='col-span-4 md:col-span-1 shadow-lg mb-[7rem] shadow-gray-400 dark:shadow-black  rounded-xl pt-4'>
                             <div className='p-2'>
                                 <p className='text-center font-bold pb-2'>Technologies</p>
                                 <div className='grid grid-cols-2 md:grid-cols-3 items-center'>
-                                    <p className='text-gray-600 py-2 flex items-center'>
+                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> React
                                     </p>
-                                    <p className='text-gray-600 py-2 flex items-center'>
+                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> Tailwind
                                     </p>
-                                    <p className='text-gray-600 py-2 flex items-center'>
+                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> Javascript
                                     </p>
-                                    <p className='text-gray-600 py-2 flex items-center'>
+                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> Next.js
                                     </p>
-                                    <p className='text-gray-600 py-2 flex items-center'>
+                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> GraphQL
                                     </p>
-                                    <p className='text-gray-600 py-2 flex items-center'>
+                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> Netlify
                                     </p>
                                 </div>
