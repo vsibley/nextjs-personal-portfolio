@@ -42,14 +42,14 @@ const socialassitant = () => {
 </li>
                         </ul>
                     <a
-                        href='https://github.com/vsibley/personal-blog-techness'
+                        href='https://github.com/vsibley/support-desk'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 text-white mt-4 mr-8 hover:scale-105'>Code</button>
                     </a>
                     <a
-                        href='https://www.tech-ness.com/'
+                        href='https://socialmediasupport.herokuapp.com/'
                         target='_blank'
                         rel='noreferrer'
                     >
