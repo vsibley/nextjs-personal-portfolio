@@ -54,7 +54,7 @@ const technessblog = () => {
                             <div className='p-2'>
                                 <p className='text-center font-bold pb-2'>Technologies</p>
                                 <div className='grid grid-cols-2 md:grid-cols-3 items-center'>
-                                    <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
+                                     <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>
                                         <RiRadioButtonFill className='pr-1' /> React
                                     </p>
                                     <p className=' text-gray-800 dark:text-gray-300 py-2 flex items-center'>

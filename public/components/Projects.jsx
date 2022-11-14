@@ -4,6 +4,15 @@ import {React} from 'react';
 const Projects = () => {
     const projects = [
         {
+            name: 'Social Assistant',
+            img: '/../assets/projects/socialapp.png',
+            route: '/socialassitant',
+            demo: 'https://socialmediasupport.herokuapp.com/',
+            code: 'https://github.com/vsibley/support-desk',
+            tech: 'React.js, Node.js, Express.js, MongoDB, Bcrypt, JWT, Axios, Heroku, Redux.',
+            disc: 'The social assistant is a website that allows you to upload info about your social media collaborations.',
+        },
+        {
             name: 'Casa Housing',
             img: '/../assets/projects/casaHousing.png',
             demo: 'https://casa-project.vercel.app/',
@@ -38,6 +47,7 @@ const Projects = () => {
             tech: 'React.js, Github API, Tailwind CSS, daisyUI, Vercel.',
             disc: 'This is the first portfolio I built with React to showcase the skills I learned and projects I have completed.',
         },
+      
     ]
 
     return (
@@ -46,7 +56,7 @@ const Projects = () => {
 
                 <p className='text-xl tracking-wider uppercase text-[#684889] dark:text-[#65afc4]  py-4'>Projects</p>
                 <h2 className=' py-2 pb-6'>My most recent work</h2>
-                <div className='grid md:grid-cols-2 gap-8 '>
+                <div className='grid md:grid-cols-3 gap-8 '>
 
 
                     {
