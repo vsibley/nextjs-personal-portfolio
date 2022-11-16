@@ -20,7 +20,7 @@ export const Hero = () => {
           </p>
           <h1 className='py-3 text-gray-700 dark:text-[#FAF9F6]'>I'm <span className='text-[#684889] dark:text-[#65afc4]'>Vanessa</span></h1>
           <p className='py-4 text-gray-500 max-w-[80%] m-auto dark:text-white'>
-            I am a Front-End Developer with a passion for React and web3 technologies. I am dedicated to designing, building, and maintaining high-performance applications. Enthusiastic about working in collaborative team environments to find creative solutions for challenging engineering problems.
+            I am a Software Engineer with a passion for React. I am dedicated to designing, building, and maintaining high-performance applications. Enthusiastic about working in collaborative team environments to find creative solutions for challenging engineering problems.
           </p>
           <div className='flex pt-5 items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
@@ -39,7 +39,7 @@ export const Hero = () => {
               </a>
             </div>
             <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
-              <a href="https://drive.google.com/file/d/1FYy7R1VspK3XYtLuPWeiSc7uqCj-yGSu/view?usp=sharing" target="_blank" aria-label="routes to resume">
+              <a href="https://drive.google.com/file/d/1WXvIC-gkqk0M-PKDW7GnvoNoDdP0H8F3/view?usp=sharing" target="_blank" aria-label="routes to resume">
                 <BsFillPersonLinesFill />
               </a>
             </div>
@@ -48,8 +48,7 @@ export const Hero = () => {
 
 
 
-
-        </div>
+ </div>
       </div>
     </div>
   )
