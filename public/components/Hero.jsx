@@ -38,11 +38,11 @@ export const Hero = () => {
                 <AiOutlineMail />
               </a>
             </div>
-            <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
+            {/* <div className='rounded-xl shadow-lg shadow-gray-400 dark:shadow-black p-5 cursor-pointer hover:scale-110 duration-500'>
               <a href="https://drive.google.com/file/d/13CgKRjmhd-MoV58nQc2qUIGcxeFLlXla/view?usp=sharing" target="_blank" aria-label="routes to resume">
                 <BsFillPersonLinesFill />
               </a>
-            </div>
+            </div> */}
           </div>
 
 
